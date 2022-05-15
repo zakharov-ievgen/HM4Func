@@ -15,7 +15,7 @@ function AgeSelector() {
     if (18 <= age && age <= 100) {
         answer = "Ura";
     } else {
-        answer = !answer;
+        answer = false;
     }
     console.log(answer);
 }
